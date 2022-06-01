@@ -5,6 +5,7 @@
 }
 
 /* Common */
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -19,6 +20,12 @@ li {
     margin: 5px;
 }
 
+.container {
+    max-width: 1170px;
+    height: 100%;
+    margin: auto;
+}
+
 
 
 
@@ -29,19 +36,17 @@ li {
 header {
     background-color: #ff6901;
     height: 80px;
+    margin-bottom: 50px;
 }
 
-.header-container {
-    max-width: 1170px;
-    height: 100%;
-    margin: auto;
+.header {
     display: flex;
     justify-content: center;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
-.header-container ul {
+.header ul {
     display: flex;
 }
 
@@ -52,4 +57,16 @@ header {
 
 .logo img {
   max-width: 200px;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main img {
+    width: calc(100% / 4);
+    margin: 45px;
 }
