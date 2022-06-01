@@ -7,12 +7,17 @@
 /* Common */
 
 body {
+    color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+ul {
+    display: flex;
 }
 
 li {
@@ -29,6 +34,11 @@ li {
 .marca, .prezzo, .sconto {
     font-size: 10px;
 }
+
+.marca, .modello, .sconto {
+    color: black;
+}
+
 
 .modello {
     font-size: 12px;
@@ -59,8 +69,7 @@ li {
 
 header {
     background-color: #ff6901;
-    height: 80px;
-    margin-bottom: 50px;
+    height: 80px;   
 }
 
 .header {
@@ -70,9 +79,7 @@ header {
     align-items: center;
 }
 
-.header ul {
-    display: flex;
-}
+
 
 .logo {
     display: flex;
@@ -84,6 +91,10 @@ header {
 }
 
 /* Main */
+
+main {
+    margin-top: 30px;
+}
 
 .main {
     display: flex;
@@ -107,8 +118,34 @@ header {
 }
 
 .eco {   
-    left: 55px;
+    left: 15%;
     background-color: green;
 }
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    height: 160px;
+    position: relative;
+}
+
+.footer nav {
+    position: absolute;
+    left: 0;
+    padding: 20px;
+}
+
+nav div {
+    margin-left: 5px;
+}
+
+.footer .social {
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}
+
+
 
 
