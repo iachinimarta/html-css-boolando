@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Common */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+/* Header */
+
+header {
+    background-color: #ff6901;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul {
+    display: flex;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+  width: 25%;
+}
