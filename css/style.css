@@ -46,7 +46,6 @@ li {
     color: black;
 }
 
-
 .modello {
     font-size: 12px;
     font-weight: bold;
@@ -81,7 +80,7 @@ li {
     line-height: 30px;
 }
 
-
+/* Fine Common */
 
 
 
@@ -89,7 +88,12 @@ li {
 
 header {
     background-color: #ff6901;
-    height: 80px;   
+    height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 .logo {
@@ -101,10 +105,14 @@ header {
   max-width: 200px;
 }
 
+/* Fine Header */
+
+
+
 /* Main */
 
 main {
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .main {
@@ -129,7 +137,7 @@ main {
 }
 
 .eco {   
-    left: 15%;
+    left: 55px;
     background-color: green;
 }
 
@@ -142,6 +150,10 @@ main {
     left: 0;
     background-color: red;
 }
+
+/* Fine Main */
+
+
 
 /* Footer */
 
@@ -165,6 +177,8 @@ footer {
 .social .icone {
     text-align: center;
 }
+
+/* Fine Footer */
 
 
 
