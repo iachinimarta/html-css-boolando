@@ -5,14 +5,18 @@
 }
 
 /* Common */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 a {
     text-decoration: none;
     color: white;
 }
 
-ul {
+li {
     list-style: none;
+    margin: 5px;
 }
 
 
@@ -25,18 +29,27 @@ ul {
 header {
     background-color: #ff6901;
     height: 80px;
+}
+
+.header-container {
+    max-width: 1170px;
+    height: 100%;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
-header ul {
+
+.header-container ul {
     display: flex;
 }
+
 .logo {
     display: flex;
     justify-content: center;
 }
 
 .logo img {
-  width: 25%;
+  max-width: 200px;
 }
