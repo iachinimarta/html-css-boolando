@@ -146,6 +146,10 @@ nav div {
     padding: 20px;
 }
 
+/* Hover */
 
+.foto-1:hover {
+    content: url(../img/1b.webp);
+}
 
 
