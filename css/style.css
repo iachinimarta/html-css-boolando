@@ -26,6 +26,23 @@ li {
     margin: auto;
 }
 
+.marca, .prezzo, .sconto {
+    font-size: 10px;
+}
+
+.modello {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.prezzo {
+    color: red;
+    display: inline-block;
+}
+
+.sconto {
+    text-decoration: line-through;
+}
 
 
 
@@ -61,12 +78,16 @@ header {
 
 /* Main */
 
-main {
+.main {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.main img {
-    width: calc(100% / 4);
-    margin: 45px;
+.prodotti {
+    width: calc(97% / 3);
 }
+.prodotti img {
+    width: 100%;
+} 
+
